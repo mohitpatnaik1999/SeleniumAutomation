@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<!-- With the help of creating individual tests Submit Order Test and Error Validation Test,we are going to execute the test cases in the sequential order as the class name.-->
+<!-- When we try to run the tests parallely,then we need to use parallel word in the suite level.-->  
+  <groups>
+  	<run>
+  		<include name="errorHandling" />
+  	</run>
+  </groups>
+  
+  <test thread-count="5" name="Submit Order Test">
+    <classes>
+      <class name="project.tests.SubmitOrderTest"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="Error Validation Test">
+    <classes>
+      <class name="project.tests.ErrorValidationTest"/>
+    </classes>
+  </test>
+</suite>

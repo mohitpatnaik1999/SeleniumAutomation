@@ -1,0 +1,8 @@
+project\pageObject\PaymentPage.class
+project\pageObject\ConfirmationPage.class
+project\pageObject\OrderPage.class
+project\pageObject\LandingPage.class
+project\AbstractComponent\AbstractComponent.class
+project\resources\ExtentReport.class
+project\pageObject\MyCartPage.class
+project\pageObject\ProductCatalogue.class
