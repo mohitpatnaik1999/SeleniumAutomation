@@ -2,7 +2,7 @@
 
 This project focuses on **end-to-end testing** of the eCommerce website using **Selenium WebDriver** and the **TestNG framework**. The testing covers key functionalities, including login, adding items to the cart, completing the checkout process, and validating successful order placement.
 
-## Testing Frameworks Used
+## Technologies Used
 - **Selenium WebDriver**: Automates browser actions to interact with the web application and validate its functionality.
 - **TestNG Framework**: Organizes the tests, generates reports, and handles the execution of the test suite.
 
